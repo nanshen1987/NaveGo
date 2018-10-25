@@ -53,6 +53,7 @@ clear
 matlabrc
 
 addpath ../../simulation/
+addpath ../../
 
 versionstr = 'NaveGo, release v1.0';
 

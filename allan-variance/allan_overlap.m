@@ -482,7 +482,7 @@ if verbose >= 2 % show all data
     
     % plot the frequency data, centered on median
     if size(dtime,2) > size(dtime,1), dtime=dtime'; end % this should not be necessary, but dsplot 1.1 is a little bit brittle
-    try
+    try  
         % dsplot makes a new figure
         hd=dsplot(dtime,medianfreq);
     catch ME
